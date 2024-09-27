@@ -1,5 +1,4 @@
 commit 9cf246d877db995e8e64c35f37094d39d497a9a0
-Author: Ginger McCoy <gmm225@cornell.edu>
 Date:   Wed May 15 19:59:46 2024 -0400
 
     Moreeee testsss
