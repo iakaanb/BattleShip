@@ -1,0 +1,594 @@
+commit 9cf246d877db995e8e64c35f37094d39d497a9a0
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Wed May 15 19:59:46 2024 -0400
+
+    Moreeee testsss
+
+commit c1d0ef25ad1aa56188a7aa8352c7bcd58008a282
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Wed May 15 19:56:31 2024 -0400
+
+    Even more tests
+
+commit 53fe170e51747d8d37a47e673ce9234cf6526af3
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Wed May 15 19:49:35 2024 -0400
+
+    More tests
+
+commit 9276591d9ccacbcbdfba499e8354e807e95e9d8a
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Wed May 15 18:35:30 2024 -0400
+
+    Adjust set_ships specification
+
+commit 05d25975367c8a39a88d7e52136e1ac9696e9b92
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Wed May 15 18:35:03 2024 -0400
+
+    Implement random ship placement
+
+commit 56ed3ae9cab635f7d9bc177baca0cf164aac861c
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Wed May 15 18:34:49 2024 -0400
+
+    Improve instructions readability
+
+commit b7c64062ba8e8e58bb65ed0c4bc482b3d2f79bf7
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Wed May 15 17:21:37 2024 -0400
+
+    "Uncurry" Validate Ship
+
+commit 377e3d1b8d51593a1f31894500ef1e00153463a6
+Author: ns848 <ns848@cornell.edu>
+Date:   Wed May 15 16:55:40 2024 -0400
+
+    Wrote AF and RI for Player
+
+commit b095a6ce80acb2a4fc308277e1a440a6ddbd4c18
+Author: ns848 <ns848@cornell.edu>
+Date:   Wed May 15 16:30:35 2024 -0400
+
+    Add files via upload
+
+commit 0ae90fef0d4beb1a1e2d6fe20cfa907ad97a12de
+Author: ns848 <ns848@cornell.edu>
+Date:   Wed May 15 16:20:13 2024 -0400
+
+    Update INSTALL.txt
+
+commit d2fdcd38537e81763e7b97851e0f85d758ce963d
+Author: ns848 <ns848@cornell.edu>
+Date:   Wed May 15 16:13:05 2024 -0400
+
+    Update README.md
+
+commit 4726f74e445637f74b1321ce0dcdded3efc4d550
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Wed May 15 14:55:23 2024 -0400
+
+    Fix sunken ship states
+
+commit 552652617746c3c0ad603eb33415039fdbfe1211
+Author: ns848 <ns848@cornell.edu>
+Date:   Wed May 15 14:09:52 2024 -0400
+
+    Implement penalty for misses
+    -added test cases
+
+commit 9844d11141358d29d508191d62b349ef465fc92f
+Author: ns848 <ns848@cornell.edu>
+Date:   Wed May 15 12:49:24 2024 -0400
+
+    wrote/edited specification comments for .mli files
+
+commit 32b200fed580f2cf50d6679a433ee3969130b39b
+Author: ns848 <ns848@cornell.edu>
+Date:   Wed May 15 12:31:07 2024 -0400
+
+    Refactors code into new Player module
+    
+    -fixed bug where player would win too early
+    -fixed coloring bug for destroyed ships
+
+commit 109725418fff15ace2d4ee95be6dfcc7f3a33da4
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Wed May 15 00:46:33 2024 -0400
+
+    Added ship off grid tests
+
+commit 6bc66c96286905f1378793dd1d56b64eba84a35a
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Wed May 15 00:44:37 2024 -0400
+
+    Added more test cases
+
+commit 6c914977fcf7fc728e7f30ce0ef994081d460a9f
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Tue May 14 23:21:58 2024 -0400
+
+    Validate ships test cases and changed implementation logic for when the same cooridnate is inputted twice.
+
+commit 3db675c36ab3fd01d0c54b1747b9b4e8fd28abbb
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Tue May 14 22:57:59 2024 -0400
+
+    Fix sink_ships
+    - Change other cells to sunk upon sinking a ship
+
+commit ee039628085e17a98c51aa943180fa4600935bc3
+Author: ns848 <ns848@cornell.edu>
+Date:   Mon May 13 21:41:56 2024 -0400
+
+    Fixes bug in asks_for_coords where user cannot enter coords for larger numbers
+
+commit 0dea3484c33699f9c8373397bcadab249f400620
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Sun May 12 16:21:46 2024 -0400
+
+    Implemented attack functionality
+    - each player sets their ships and must do this before next player goes
+    - during each turn, player can implement one coordinate attempt and if
+    it is valid input indicates HIT or MISS and auto changes player
+
+commit d7e8ff259922bd5f98930648b9d0d66ab40a8213
+Author: ns848 <ns848@cornell.edu>
+Date:   Sun May 12 11:00:20 2024 -0400
+
+    Fixes spacing issues in display for opponent board, strengthens validate_ships
+
+commit 341351c02f4921da6deb4850991bd2df00aed320
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Sat May 11 13:41:08 2024 -0400
+
+    Test next: print_grid, print_their_board, num_ships_sunk, validate_ship,
+       set_ships
+
+commit f4c2bd3a8657e4a1fa6f62d961e4344bcf0f9b56
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Sat May 11 13:37:32 2024 -0400
+
+    Completed is_sunk testing.
+
+commit 98694e95c60b07bbb88301f93543fa0c5701ce89
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Sat May 11 13:05:27 2024 -0400
+
+    Debugged hit_ships and fixed test cases for this function.
+
+commit 013b9032cfe95d50c8e384e7e64be1b79daebbe6
+Author: ns848 <ns848@cornell.edu>
+Date:   Fri May 10 21:50:35 2024 -0400
+
+    cleaning up comments
+
+commit 6f629654ea6f490ac15c0210a784cead614728f3
+Author: ns848 <ns848@cornell.edu>
+Date:   Fri May 10 21:48:43 2024 -0400
+
+    Players can each set their ships
+    
+    - works so ships cannot overlap and can see placements in real time
+    - need to make a play loop so users each get one turn instead of passing it over
+    -need to fix "otherboard" view, letters are overflowing
+
+commit 12ec8626793dd07a5b1f56ca0b36d180647ec8ad
+Author: ns848 <ns848@cornell.edu>
+Date:   Fri May 10 20:09:27 2024 -0400
+
+    Implements asking for coordinates functionality
+    
+    -differentiates betweens player's first turn (setting ships) versus later turns (can actually play)
+
+commit bb4d9f521f8021bddaebdc553efecccd177341e9
+Merge: fd4ed5f 205e04c
+Author: ns848 <ns848@cornell.edu>
+Date:   Fri May 10 19:48:33 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:nm563/CS3110Project
+
+commit fd4ed5ffe19fbcd18207a7e7dcf1b3fdb7bf0fa3
+Author: ns848 <ns848@cornell.edu>
+Date:   Fri May 10 19:46:44 2024 -0400
+
+    added new field for player record
+
+commit 205e04c23b9b54dc3a42bd6edbee7574fd4190c3
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Fri May 10 18:00:37 2024 -0400
+
+    Debugging hit_ship and finishing test cases for hit_ship and is_sunk.
+
+commit a6faa22bfd813a8a38570981b053a7358f4277f5
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Fri May 10 15:29:08 2024 -0400
+
+    Finished testing change_to_ship.
+
+commit 6f5443988c7db4137aa4672e9d28312c2ffa8265
+Author: ns848 <ns848@cornell.edu>
+Date:   Thu May 9 17:36:55 2024 -0400
+
+    Adds first player's name to first instructions
+    
+    -reduces ambiguity
+
+commit 79107eef64ef77c12cac4e17bda20155adfacbde
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Thu May 9 12:23:09 2024 -0400
+
+    Increased functionality in main.ml
+    - implemented changing player state/game state
+    - asks for player names
+
+commit a0e1ccb554dc2461e5d24646df932a9dce6e0fd8
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Wed May 8 10:52:59 2024 -0400
+
+    Finish implementing set_ships
+
+commit b8124a0a83358a3fe04d6926193134a0e04a738a
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Wed May 8 09:30:18 2024 -0400
+
+    Update change_state
+
+commit b7076dabf0c3068a9d785a171228fea8134f95cb
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Wed May 8 09:30:03 2024 -0400
+
+    Update change_state tests
+
+commit 7cf496bd0cc257756d8cdd87676840b6c06a6795
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Wed May 8 09:29:53 2024 -0400
+
+    Update change_state type
+
+commit ce078e8ae06158d5d84318000ec4af61b8a5d996
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Mon May 6 23:48:07 2024 -0400
+
+    Edit change_to_ship
+
+commit 429b210ba7d72275a8946bf8a4814f707fde2f88
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Mon May 6 22:14:55 2024 -0400
+
+    Implement set_ships
+
+commit f815e2e90477b8890dae1f2a3cf0b6696e77afde
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Mon May 6 19:55:43 2024 -0400
+
+    Began testing change_to_ship but that function must be implemented further.
+
+commit 1086a9b8fd90ef5e8a133914d52390621aebe6ec
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Mon May 6 19:46:36 2024 -0400
+
+    Finished testing change_state. All tests pass.
+
+commit 11675b93e62ae4cecc5fc62639d9dc32b2127414
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Mon May 6 19:38:18 2024 -0400
+
+    Implemented TODO 7.
+
+commit 36459e71ade244757186559eb247fda05fcbc7a6
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Mon May 6 19:31:07 2024 -0400
+
+    Implemented TODO 7.
+
+commit ddd16b5ee07ff5e277ea455790f1ded162dbfeb3
+Author: ns848 <ns848@cornell.edu>
+Date:   Sun May 5 19:49:37 2024 -0400
+
+    Main program handles cases where user inputs bad arguments
+    
+    -updated validate ships to return a boolean and a length to make other functions easier
+
+commit dde07e44f138ac60bbf3d0e2c681acb1767e2505
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Sun May 5 16:24:44 2024 -0400
+
+    Began outlining tests for is_sunk and hit_ship. set_ships must be completed before these two tests can properly run.
+
+commit e98c800728c1734b50e652f0c1d3bb841f657b50
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Sat May 4 16:09:38 2024 -0400
+
+    Completed functions to test next: print_grid, print_their_board, hit_ship,
+       is_sunk. Incomplete functions or not ready test next: num_ships_sunk, validate_ship,
+       change_to_ship, change_state, set_ships.
+
+commit 45c59f7217b90179aa810fdf7a0ec09de87e7f26
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Sat May 4 16:01:04 2024 -0400
+
+    All test cases for get_ships pass.
+
+commit 111603f6fbb19af3365f3924625970f9b18828f5
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Sat May 4 15:54:44 2024 -0400
+
+    All test cases for create_board pass.
+
+commit 3e6ce415517466880b352b332c8b08ef3271f6a3
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Sat May 4 15:54:11 2024 -0400
+
+    All test cases for string_of_cell pass. Fixed grid compilation unit so type t and cell are recognized throughout the other files.
+
+commit b8748a66fc23d99d465ea68ae92b86f462437053
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Sat May 4 14:44:52 2024 -0400
+
+    All test cases for coordinates function pass.
+
+commit 5f5b39fe21c1f450a8ed53121b61078a5c600418
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Wed May 1 13:55:23 2024 -0400
+
+    Simplified test cases and began debugging coordinates function.
+
+commit fb844f6b73c2f239eece7c676563420c6a8ba75c
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Wed May 1 13:50:02 2024 -0400
+
+    Added test suite outline.
+
+commit ca1a6ed6684fe784b8409995d3f19a885402605b
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Mon Apr 29 13:46:56 2024 -0400
+
+    Fixed mli type check
+
+commit 8bfc7c0b506ca235f7157b5f5383ee9dcbcc3c24
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Mon Apr 29 12:19:53 2024 -0400
+
+    Implement change_to_ship
+
+commit 8bbf0f9ee5e1d6da1a11bcdabb1f9750e0098070
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Mon Apr 29 12:14:14 2024 -0400
+
+    Document change_state functions
+
+commit 36f5ba85241141378d547dd02dd5efb6e35dc48c
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Mon Apr 29 12:08:43 2024 -0400
+
+    Partially implement Set_Ships
+
+commit b84ef1ed2e10d5ca159730517d76f9a3948ad57d
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Sat Apr 27 20:39:50 2024 -0400
+
+    Finished ToDo 4 (hit_ship) and ToDo 5 (is_sunk)-Naakai
+
+commit 9f27aa2a32be4aec8995d89561dcf2eff888495f
+Author: ns848 <ns848@cornell.edu>
+Date:   Fri Apr 26 18:19:45 2024 -0400
+
+    deleted size variable
+
+commit 167059816da284455c12102e64766c349849b69d
+Author: ns848 <ns848@cornell.edu>
+Date:   Fri Apr 26 15:29:48 2024 -0400
+
+    Implemented validate_ship
+    
+    -testing seems to work for now, not able to test if it detects overlapping ships
+    -go back to test once change_state works
+
+commit 1e27af4a4af032173cc1a76b1305bdd8be22e2a9
+Merge: 5f507df 77f46d6
+Author: ns848 <ns848@cornell.edu>
+Date:   Fri Apr 26 11:44:40 2024 -0400
+
+    resolving merge conflict
+
+commit 5f507df36d6e8f7b81e1cddc6521b31ff7d1f2f8
+Author: ns848 <ns848@cornell.edu>
+Date:   Fri Apr 26 11:40:11 2024 -0400
+
+    working on validating ship position
+
+commit 77f46d64ed79dac687b224d06ea038fbc68b756b
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Fri Apr 26 11:29:24 2024 -0400
+
+    Add documentation comments
+
+commit c3f64dba844bc18edee05b4863bb59e1f90b079e
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Fri Apr 26 11:01:30 2024 -0400
+
+    Implement type Grid.t
+    - t = cell array array
+    - Adjust print board functions
+
+commit 76ed979f15b6e1c4a32b34409b191f81b200e0d4
+Author: ns848 <ns848@cornell.edu>
+Date:   Thu Apr 25 23:42:15 2024 -0400
+
+    Adds installation instructions
+
+commit 1340d6256f6f9e57dd9bce9c889dbe05e199c365
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Thu Apr 25 12:48:33 2024 -0400
+
+    Fixed grid so that letters would show up
+    - still lowkey having some spacing problems with the letters
+
+commit 8e8475e7d41f3d88a04f0564e6313715e8c5ba98
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Thu Apr 25 12:19:07 2024 -0400
+
+    implemented [coordinates] function in grid.ml
+
+commit 867f18a459299e44a4f4bc5b04d99eb4bde9780c
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Thu Apr 25 12:03:28 2024 -0400
+
+    Implemented placeholder TODOs in grid.ml:
+    - added stub implementations to ensure code compiles and can be run in
+      utop without errors
+    - fixed type mismatch for [cell] in grid.mli and grid.ml
+
+commit ff3f1ed01e0ab6344001ea68d056d11a45bac112
+Author: Naakai McDonald <nm563@cornell.edu>
+Date:   Sun Apr 21 21:02:37 2024 -0400
+
+    Added 8 ToDos in the game file with lengthy descriptions.
+
+commit be18c596538c4d33f0e5f7feb3ef8f5af81ce2c7
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Sun Apr 21 18:06:30 2024 -0400
+
+    Added more main.ml functionality
+    - implemented viewing other players board
+    - implemented game loop
+
+commit 49c5a71814f9a0dfc2247361d2dc693ee535f9e2
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Sun Apr 21 17:55:36 2024 -0400
+
+    Edited install.txt
+
+commit c3ac74ad3a3b78c287eb553527cda5fae46fd068
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Sun Apr 21 17:52:31 2024 -0400
+
+    Moved grid compilation unit to lib
+    - simplified board size so user is only asked once for size
+    - printed right away instead of making user input functions
+
+commit b4db396325943c9b9c56c94afa1afeb6da124cc7
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Sun Apr 21 16:53:55 2024 -0400
+
+    new file
+
+commit ddbb043431b057a57caebed0e4af981ed095a789
+Author: ns848 <ns848@cornell.edu>
+Date:   Thu Mar 28 21:25:45 2024 -0400
+
+    Adds installation instructions
+
+commit 3ccbdfbcdf790f286a9cc3a4c396c072c609865f
+Author: ns848 <ns848@cornell.edu>
+Date:   Thu Mar 28 13:45:13 2024 -0400
+
+    prints out colors on boards
+
+commit 96f78b98890284f06e2e41c1f84725b1242c7774
+Author: NIDHI2023 <nidhisoma@gmail.com>
+Date:   Wed Mar 27 22:09:41 2024 -0400
+
+    Update documentation comments
+    
+    -added grid.mli file
+    -added draft for AF and RI
+
+commit fbe303268984b7c5af5ba397b69ca385491226a0
+Author: ns848 <ns848@cornell.edu>
+Date:   Wed Mar 27 00:27:39 2024 -0400
+
+    implement board for other person
+
+commit 31db028283a9b44471cd0fe0c036c4004de7a45c
+Author: ns848 <ns848@cornell.edu>
+Date:   Tue Mar 26 12:58:11 2024 -0400
+
+    implement print board function
+
+commit 2b051da0727557a89d3d6cf42459598b3d2ad392
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Tue Mar 26 12:02:51 2024 -0400
+
+    Create grid.ml file
+    - Initialize game board
+    - Prompt user for size
+
+commit 93d9657fe8e13efe559dfa2deb850bfbd5f2691a
+Author: ns848 <ns848@cornell.edu>
+Date:   Mon Mar 25 23:05:42 2024 -0400
+
+    initialized project
+
+commit 4d556e62e6af954904d1771103ef24ea3b416744
+Merge: a4a0006 a22e41a
+Author: ns848 <ns848@cornell.edu>
+Date:   Sun Mar 24 19:31:51 2024 -0400
+
+    Merge pull request #2 from nm563/gingerbranch
+    
+    added YAML file
+
+commit a22e41ad8b63a6821b9cf97654477f8c5919c876
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Sun Mar 24 19:30:18 2024 -0400
+
+    added yaml file
+
+commit 579b276cf47b9da14a40c5e9c948028e4440f21c
+Merge: 47b821b a4a0006
+Author: ns848 <ns848@cornell.edu>
+Date:   Sun Mar 24 19:18:22 2024 -0400
+
+    Merge pull request #1 from nm563/main
+    
+    ReadMe changes
+
+commit a4a000612e4c91d6e1bcc8a12ee24f7d9908ea7b
+Author: Niti Goyal <ng459@cornell.edu>
+Date:   Sun Mar 24 19:13:14 2024 -0400
+
+    Separate contributor names
+
+commit 3f99984c619446d985de35e0831777e402451d18
+Author: ns848 <ns848@cornell.edu>
+Date:   Sun Mar 24 19:11:19 2024 -0400
+
+    Update README.md
+
+commit 38e087216c5726f0cc769757e572af3082961c11
+Author: ns848 <ns848@cornell.edu>
+Date:   Sun Mar 24 19:09:43 2024 -0400
+
+    Change title name in README
+
+commit 47b821be5a3252b8992785f8aab9f4ef8b6ecfbd
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Sun Mar 24 18:06:32 2024 -0400
+
+    edited contributors
+
+commit bc2b428091cbbe38cf2decb9234cedcdc2cea08f
+Author: Ginger McCoy <gmm225@cornell.edu>
+Date:   Fri Mar 8 16:03:06 2024 -0500
+
+    Ginger added name
+
+commit b75cb2fd6c24487c436685cf04570f8276018f39
+Author: jw2446 <14737+jw2446@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Mar 7 14:54:17 2024 -0500
+
+    Added name to README.md
+
+commit fa8c23fc6bfdc16ce137803be8fa0071f52b525c
+Author: nm563 <nm563@cornell.edu>
+Date:   Wed Feb 28 21:53:55 2024 -0500
+
+    Update README.md
+
+commit 85bc628c344817671a7172662f0ae0b90a95abe8
+Author: nm563 <nm563@cornell.edu>
+Date:   Wed Feb 28 21:35:59 2024 -0500
+
+    Initial commit

@@ -1,0 +1,38 @@
+---
+# Members of your group.
+group:
+  - name: Ginger McCoy
+    netid: gmm225
+  - name: Naakai MacDonald
+    netid: nm563
+  - name: Nidhi Soma
+    netid: ns848
+  - name: Niti Goyal
+    netid: ng459
+# Your PM.
+pm:
+  name: Bryan Lee
+  netid: bdl55
+# Set to false if you don't want your gallery entry to be public.
+publish: true
+# Pithy title
+title: "OCaml Battleship"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/nm563/Battleship.git"
+# If you have no demo screencast, replace the url string with an empty string ""
+demo-video-url: ""
+# Write a short, attention-grabbing description of your project.
+desc: >
+  In this classic game of strategy and deduction, you'll 
+  go head-to-head with your opponent, taking turns to place your 
+  ships strategically on the grid and launch attacks to sink their fleet.
+  Terminal Battleship is an interactive command-line implementation of the 
+  classic game Battleship, developed using OCaml and its utop interface. 
+
+  The project aims to provide an engaging and immersive gaming 
+  experience entirely within the terminal environment. The game follows the 
+  traditional rules of Battleship, where two players take turns placing their 
+  ships on a grid and attempting to sink each other's fleet by guessing the 
+  coordinates of the opponent's ships. The project incorporates a user-friendly 
+  interface that allows players to input their moves and receive visual feedback
+  on the outcome of their attacks.

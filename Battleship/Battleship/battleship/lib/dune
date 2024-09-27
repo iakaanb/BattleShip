@@ -1,0 +1,7 @@
+(library
+ (inline_tests)
+ (name battleship)
+ (libraries ANSITerminal batteries)
+ (modules grid player)
+ (preprocess
+  (pps ppx_inline_test)))
