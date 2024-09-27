@@ -2,17 +2,10 @@
 # Members of your group.
 group:
   - name: Ginger McCoy
-    netid: gmm225
   - name: Naakai MacDonald
-    netid: nm563
   - name: Nidhi Soma
-    netid: ns848
   - name: Niti Goyal
-    netid: ng459
-# Your PM.
-pm:
-  name: Bryan Lee
-  netid: bdl55
+  
 # Set to false if you don't want your gallery entry to be public.
 publish: true
 # Pithy title
