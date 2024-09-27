@@ -1,9 +1,8 @@
 # Battleship
-## CS 3110 Project
-- Naakai McDonald nm563
-- Ginger McCoy gmm225
-- Niti Goyal ng459
-- Nidhi Soma ns848
+- Naakai McDonald
+- Ginger McCoy
+- Niti Goyal
+- Nidhi Soma
 
 ## Description
  In this classic game of strategy and deduction, you'll 
